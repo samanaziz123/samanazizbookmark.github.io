@@ -203,6 +203,17 @@ a.menuitem.itembtn {
     text-decoration: none;
     transition: 0.3s;
 }
+.bluebtnmoreinfo {
+    background: #5267df;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin: 50px auto 0 auto;
+    display: table;
+}
 .banner ul.inline-btns li a.btngray {
     background: #f7f7f7;
     color: #000;
@@ -233,6 +244,27 @@ a.menuitem.itembtn {
 .banner ul.inline-btns li a.btngray:hover {
     background: #5165dc;
     color: #fff;
+}
+
+.features .content-box a.btnblue:hover{
+    background: #f7f7f7;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    color: #000;
+}
+.download-card .card-footer a.btnblue:hover{
+    background: #f7f7f7;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    color: #000;
+}
+.email-box ul a.btnred:hover{
+    background: #f7f7f7;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    color: #000;
+}
+.bluebtnmoreinfo:hover{
+    background: #f7f7f7;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    color: #000;
 }
 /* bannersection  */
 

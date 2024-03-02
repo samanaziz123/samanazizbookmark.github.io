@@ -201,6 +201,7 @@ a.menuitem.itembtn {
     position: relative;
     border-radius: 5px;
     text-decoration: none;
+    transition: 0.3s;
 }
 .banner ul.inline-btns li a.btngray {
     background: #f7f7f7;
@@ -210,6 +211,7 @@ a.menuitem.itembtn {
     border-radius: 5px;
     text-decoration: none;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    transition: 0.3s;
 }
 .blueshapeabs {
     background: #5267df;
@@ -221,6 +223,16 @@ a.menuitem.itembtn {
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px;
     z-index: -1;
+}
+.banner ul.inline-btns li a.btnblue:hover {
+    background: #f7f7f7;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    color: #000;
+}
+
+.banner ul.inline-btns li a.btngray:hover {
+    background: #5165dc;
+    color: #fff;
 }
 /* bannersection  */
 
